@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivina el Número</title>
+</head>
+<body>
+
+    <div class="encabezado">
+        <h1></h1>
+        <h2></h2>
+    </div>
+
+    <div class="captador_informacion">
+        <p></p>
+        <input type="number" id="valorIngresado" min="1" max="10" class="container__input">
+        <div class="chute container__botones">
+            <button onclick="verificarIntento();" class="container__boton">Intentar</button>
+            <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+        </div>
+    </div>
+    
+
+    <script src="desafioNumerosecreto.js"></script>
+</body>
+</html>
